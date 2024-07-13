@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: url(../img/france-national-day-banner-design-french-flag-and-map-theme-with-paris-eiffel-tower-background-red-and-blue-color-la-france-presidential-elections-travel-vector.jpg) no-repeat center center/cover;
+    color: white;
+    padding: 68px 0px;
+    text-align: center;
+    background-size: cover;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px
+}
+
+.header-content nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.header-content nav a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.header-content nav a:last-child {
+    margin-right: 0;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container {
+    background: url(../img/9b47e3dfdb42ad75b4502fce52a8b7f2.jpg);
+    display: flex;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+}
+
+.features {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+}
+
+.feature {
+    background: #eaeaea;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    background:url(../img/vecteezy_cartoon-sticker-of-the-eiffel-tower-in-paris-france_17333848.png)no-repeat center center/cover;
+    padding: 250px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+.content:hover {
+    animation: flip-bounce 0.5s both;
+}
+
+@keyframes flip-bounce {
+    0% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+    25% {
+        transform: perspective(400px) rotateY(20deg);
+    }
+    50% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+    75% {
+        transform: perspective(400px) rotateY(10deg);
+    }
+    100% {
+        transform: perspective(400px) rotateY(0deg);
+    }
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+.feature:nth-child(1) {
+    background-color: rgb(0, 38, 84);
+    transition:0.2s
+}
+.feature:nth-child(1):hover{
+    transform: scale(1.2);
+}
+.feature:nth-child(2) {
+    background-color: rgb(255, 255, 255);
+    transition:0.2s
+}
+.feature:nth-child(2):hover{
+    transform: scale(1.2);
+}
+.feature:nth-child(3) {
+    background-color: rgb(237, 41, 57);
+    transition: 0.2s;
+}
+.feature:nth-child(3):hover{
+    transform: scale(1.2);
+}
