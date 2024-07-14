@@ -58,17 +58,13 @@
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- Multipage design showing hero with 3 features
+- Showing different designs of a hero page and a feature
+- Key components are Hero, Features, Animations and styles, and Javascript.
+- Technologies used are HTML, CSS, JS.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Key components are Hero, Features, Animations and styles, and Javascript. With these key components, I have created a Landing page with 2 pages that showcases a Hero page with features.
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -115,4 +111,6 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3schools |  For HTML guidelines. | https://www.w3schools.com/html/ |
+| W3schools |  For CSS guidelines. | https://www.w3schools.com/css/ |
+| W3schools |  For JS guidelines. | https://www.w3schools.com/js/ |
