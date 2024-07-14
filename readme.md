@@ -57,7 +57,6 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
 - Multipage design showing hero with 3 features
 - Showing different designs of a hero page and a feature
 - Key components are Hero, Features, Animations and styles, and Javascript.
